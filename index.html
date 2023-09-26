@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+  <header>
+        <div class="header-left">
+            <div class="logo">
+                <h1>WatsonX | Integrated Website</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="" class="active">Beranda</a>
+                    </li>
+                    <li>
+                        <a href="D:\MAGANG atau Studi Independen Stupen Mandiri\PROJECT CAPSTONE\My Project\Website For WatsonX\projek stupen\Login.html">Login</a>
+                    </li>
+                    <li>
+                        <a href="D:\MAGANG atau Studi Independen Stupen Mandiri\PROJECT CAPSTONE\My Project\Website For WatsonX\projek stupen\about.html">Tentang Kami</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-right">
+            <div class="hamburger">
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+        
+    </header>
+    <main class="section__container header__container">
+        <div class="header__content">
+          <h2><span>Build Your Setup With AI</h2>
+          <p>
+                Mau Rakit PC? atau Mau Punya Laptop Sesuai kebutuhan?
+          </p>
+          <p>konsultasi dengan AI adalah pilihan terbaik!</p>
+          <div class="tomb"><button class="btn">Get Started</button></div>
+          
+        </div>
+    </main>
+    <script>
+        window.watsonAssistantChatOptions = {
+          integrationID: "dbe081a5-24a6-4c9e-90a3-c4d721dd1857", // The ID of this integration.
+          region: "us-south", // The region your integration is hosted in.
+          serviceInstanceID: "1cc41db5-bd1d-4806-a437-d4e8f49cfbc3", // The ID of your service instance.
+          onLoad: function(instance) { instance.render(); }
+        };
+        setTimeout(function(){
+          const t=document.createElement('script');
+          t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+          document.head.appendChild(t);
+        });
+      </script>
+    <main>
+        <div class="sponsor">
+            <h3> Sponsored By : IBM Watson X</h3>
+        </div>
+    </main>
+    <footer>
+        <div class="box-footer">
+            <div class="main-footer">
+                <h5>Created by : Syahrul Ramadhan and Alvian Ibnu Farhan</h5>
+                <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit nulla molestiae iste asperiores alias ut quos dolorum placeat veniam reprehenderit praesentium, labore harum at, in consectetur. Minus necessitatibus ea</h6>
+            </div>
+            <div class="end-footer">
+                <h4>Copyright @2023 - Created by : Lebah Ganteng - Sponsored by : IBM WatsonX</h4>
+            </div>
+        </div>
+    </footer>
+
+    
+</body>
+</html>
