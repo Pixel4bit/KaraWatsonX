@@ -1,0 +1,152 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(BG\ LOGIN\ page.png);
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    padding-left: 80px;
+    padding-right: 0;
+    font-family: poppins,sans-serif;
+    text-decoration: none;
+
+  }
+h2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 32px;
+    font-weight: 800;
+        transition: all 0.3 ease-in 0;
+}
+
+.navbox li{
+    display: inline-flex;
+    padding-top: 15px;
+    float: inline-start;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    width: 190px;
+    align-items: center;
+}
+li a{
+    color: black;
+    display: flex;
+    text-decoration: none;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    padding-right: 50px;
+}
+
+.box-contain{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    width: 100%;
+
+}
+ 
+ .form-box{
+    position: relative;
+    background-color: #206A5D;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 800px;
+
+ }
+
+
+ .form-box h2{
+    font-size: 32px;
+    text-align: center;
+    font-family: poppins,sans-serif;
+    color: white;
+ }
+ .form-box .input-box{
+    position: relative;
+    width: 100px;
+    height: 50px;
+    padding-left: 10px;
+    margin: 25px 20px;
+ }
+ 
+ .input-box input{
+     width: 400px;
+     height: 100%;
+     background: transparent;
+     border: none;
+     outline: none;
+     border-bottom: 2px solid white;
+     font-size: 14px;
+    }
+ .input-box input:focus~label,
+ .input-box input:valid~label{
+    top: 12px;
+ }
+ .input-box label {
+     position: absolute;
+     top: 80%;
+     transform: translateY(-100%);
+     font-size: 16px;
+     color: white;
+     pointer-events: none;
+     transition: .5s;
+     text-align: center;
+ }
+
+ .btn{
+    position: relative;
+    width: 465px;
+    height: 45px;
+    background: black;
+    color: white;
+    outline: none;
+    font-size: 15px;
+    font-family: poppins, sans-serif;
+    font-weight: 600;
+    padding-left: 9px;
+    border-radius: 50px;
+    
+ }
+ 
+ .logreg-link{
+    text-align: center;
+    font-size: 12px;
+    padding-left: 47px;
+    width: 400px;
+    padding-left: 12spx;
+    padding-top: 8px;
+    color: white;
+ }
+ 
+ .logreg-link p a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+ }
+ 
+.Register-link{
+    font-family: poppins,sans-serif;
+    font-weight: 400;
+    color: black;
+}
